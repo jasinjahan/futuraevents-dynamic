@@ -1,0 +1,19 @@
+.header-bg{
+    background-color: rgb(3, 84, 197);
+}
+.header-bg .nav-link{
+    color: white;
+}
+.header-bg .nav-link:hover{
+    color: yellow;
+}
+.header-bg .navbar-brand{
+    color: white;
+}
+.header-bg .dropdown-menu{
+    right: 0px;
+    left: auto;
+}
+.header-bg .navbar-nav .nav-link.show {
+    color: white;
+}

@@ -1,0 +1,12 @@
+.home-carousel .carousel-caption {
+    top: 1rem;
+    bottom: auto;
+    text-align: left;
+    left: 10%;
+}
+.home-carousel .carousel-caption h3{
+    color: black;
+}
+.home-carousel .carousel-caption p{
+    color: black;
+}

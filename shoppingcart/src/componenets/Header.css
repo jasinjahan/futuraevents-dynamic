@@ -1,0 +1,9 @@
+.header-bg{
+    background-color: rgb(25, 25, 67);
+}
+.header-bg .nav-link{
+    color: white;
+}
+.header-bg .navbar-brand{
+    color: white;
+}
