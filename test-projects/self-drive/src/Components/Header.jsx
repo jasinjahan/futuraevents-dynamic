@@ -10,15 +10,22 @@ function Header({wishList}) {
   return (
     <Navbar expand="lg" className=" header-searchbar ">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">SELF DRIVE</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/cars">Cars</Nav.Link>
              <Nav.Link href="/wishlist">WishList</Nav.Link>
-             {wishList}
            
+           
+          </Nav>
+             <Nav className="ms-auto">
+            <Nav.Link href="/cart">Cart</Nav.Link>
+              {wishList}
+            <Nav.Link href="/login">Login</Nav.Link>
+             <Nav.Link href="/profile">Profile</Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

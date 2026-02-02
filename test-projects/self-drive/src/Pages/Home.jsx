@@ -1,7 +1,10 @@
+import HomeCarousel from "../Components/HomeCarousel"
+
 function Home (){
     return(
         <>
-        <h2>Home</h2>
+    
+          <HomeCarousel/>
         </>
     )
 }

@@ -1,0 +1,17 @@
+.header-bg{
+    background-color: rgb(25, 25, 67);
+}
+.header-bg .nav-link{
+    color: white;
+}
+.header-bg .nav-link:hover{
+    color: rgb(197, 165, 165);
+}
+.header-bg .navbar-brand{
+    color: white;
+}
+.header-bg .dropdown-menu{
+    right: 0px;
+    left: auto;
+
+}
